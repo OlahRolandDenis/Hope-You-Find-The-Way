@@ -8,16 +8,27 @@ public class FadeTransition : MonoBehaviour
 {
 
     [SerializeField] private Image img;
-    // [SerializeField] private GameObject img_parent;
+    [SerializeField] private GameObject img_parent;
+
 
     void Start()
     {
         Fade();
-        // img_parent.SetActive(false);
+        StartCoroutine( WaitAndDisable() );
     }
 
     void Fade() {
         // GetComponent<MeshRenderer>().material.DOFade(0.0f, 1.5f);
         img.DOFade(0.0f, 1.5f);
     }
+
+    void setActiveFalse() {
+        img_parent.SetActive(false);
+    }
+
+    IEnumerator WaitAndDisable() {
+        yield return new WaitForSeconds(1.5f);
+        img_parent.SetActive(false);
+    }
+
 }
