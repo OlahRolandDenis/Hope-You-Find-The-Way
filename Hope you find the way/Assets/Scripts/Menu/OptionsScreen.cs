@@ -14,7 +14,8 @@ public class OptionsScreen : MonoBehaviour
 
     public AudioMixer theMixer;
     public TMP_Text MasterLabel, MusicLabel, SfxLabel;
-    public Slider MasterSlider, MusicSlider, SfxSlider;
+    public Slider MasterSlider, MusicSlider, SfxSlider;     
+
     void Start()
     {
         fullscreenTog.isOn = Screen.fullScreen;
@@ -96,6 +97,7 @@ public class OptionsScreen : MonoBehaviour
             QualitySettings.vSyncCount = 0;
         }
         Screen.SetResolution(resolutions[selectedResolution].horizontal, resolutions[selectedResolution].vertical, fullscreenTog.isOn);
+
     }
 
 
@@ -120,6 +122,7 @@ public class OptionsScreen : MonoBehaviour
         theMixer.SetFloat("SfxVol", SfxSlider.value);
         PlayerPrefs.SetFloat("SfxVol", SfxSlider.value);
     }
+
 }
 [System.Serializable]
 public class ResolutionItem
