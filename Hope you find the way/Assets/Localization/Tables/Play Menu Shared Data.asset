@@ -10,39 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Hope Text Shared Data
+  m_Name: Play Menu Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Main Menu Table
-  m_TableCollectionNameGuidString: 06b847e238a856b4991f127b3e6ede04
+  m_TableCollectionName: Play Menu
+  m_TableCollectionNameGuidString: a7629fbb2d06f6a449d204a143644067
   m_Entries:
-  - m_Id: 24651206656
-    m_Key: hope
+  - m_Id: 6854774784
+    m_Key: new_game
     m_Metadata:
       m_Items: []
-  - m_Id: 1155234238464
-    m_Key: settings
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1276990689280
-    m_Key: exit
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1728360714240
-    m_Key: credits
-    m_Metadata:
-      m_Items: []
-  - m_Id: 148760748593152
-    m_Key: play
+  - m_Id: 66871070720
+    m_Key: load_game
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 583285530143490072
+    rid: 583285539696803842
   references:
     version: 2
     RefIds:
-    - rid: 583285530143490072
+    - rid: 583285539696803842
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1646423240352
+        m_CustomEpoch: 1646460180562

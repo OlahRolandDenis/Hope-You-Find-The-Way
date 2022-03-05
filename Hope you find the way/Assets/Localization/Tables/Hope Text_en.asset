@@ -34,6 +34,10 @@ MonoBehaviour:
     m_Localized: CREDITS
     m_Metadata:
       m_Items: []
+  - m_Id: 148760748593152
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -10,32 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Hope Text_ro
+  m_Name: Play Menu_en
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: ro
-  m_SharedData: {fileID: 11400000, guid: 06b847e238a856b4991f127b3e6ede04, type: 2}
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a7629fbb2d06f6a449d204a143644067, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 24651206656
-    m_Localized: "SPER S\u0102 G\u0102SE\u0218TI CALEA"
+  - m_Id: 6854774784
+    m_Localized: NEW GAME
     m_Metadata:
       m_Items: []
-  - m_Id: 1155234238464
-    m_Localized: "SET\u0102RI"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1276990689280
-    m_Localized: "IE\u0218I"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1728360714240
-    m_Localized: CREDITE
-    m_Metadata:
-      m_Items: []
-  - m_Id: 148760748593152
-    m_Localized: "JOAC\u0102"
+  - m_Id: 66871070720
+    m_Localized: LOAD GAME
     m_Metadata:
       m_Items: []
   references:
