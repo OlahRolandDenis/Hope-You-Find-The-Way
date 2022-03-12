@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject noSavedGameDialog = null;
     public void NewGameDialogYes()
     {
-        SceneManager.LoadScene(firstlevel);
+        SceneManager.LoadScene("Intro");
     }
     public void LoadGameDialogYes()
     {
