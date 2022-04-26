@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Character Selection Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Character Selection
+  m_TableCollectionNameGuidString: ca844dcebb6cda64e9d31e131da2ef4b
+  m_Entries:
+  - m_Id: 8385695744
+    m_Key: character_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153265344512
+    m_Key: gender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 347478396928
+    m_Key: done
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6561723261957439490
+  references:
+    version: 2
+    RefIds:
+    - rid: 6561723261957439490
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1650969211463
