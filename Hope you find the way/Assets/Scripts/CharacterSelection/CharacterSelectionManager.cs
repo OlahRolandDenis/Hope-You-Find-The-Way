@@ -85,7 +85,7 @@ public class CharacterSelectionManager : MonoBehaviour
         PrefabUtility.SaveAsPrefabAsset( selected_skin, "Assets/Prefabs/Player.prefab" );
         PlayerPrefs.SetString("name", player_name.text );
 
-        SceneManager.LoadScene("Laboratory");
+        SceneManager.LoadScene("Laborator");
 
     }
 
