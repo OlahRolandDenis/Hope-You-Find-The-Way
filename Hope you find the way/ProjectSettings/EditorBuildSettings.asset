@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Laborator.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Levels/CarparkMaze/ShopCM.unity
+    guid: a2e8867c0403e734faf416ec1221f8a4
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 844cc8751ab04dc4982b1e7f32befaf0, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: ed324589d19af744582e530f899a6871, type: 2}
