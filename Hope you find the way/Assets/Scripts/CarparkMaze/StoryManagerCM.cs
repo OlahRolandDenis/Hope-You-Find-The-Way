@@ -22,6 +22,13 @@ public class StoryManagerCM : MonoBehaviour
             else
                 readFromFilePath = Application.streamingAssetsPath + "/Recall_Chat/" + "ChatPuzzleEN" + ".txt";
 
+        if ( SceneManager.GetActiveScene().name == "ShopCM" )
+            if ( Application.systemLanguage == SystemLanguage.Romanian )
+                readFromFilePath = Application.streamingAssetsPath + "/Recall_Chat/" + "ChatPuzzleRO" + ".txt";
+            else
+                readFromFilePath = Application.streamingAssetsPath + "/Recall_Chat/" + "ChatPuzzleEN" + ".txt";
+
+
         dialogue = File.ReadAllLines( readFromFilePath ).ToList();
     }
 
