@@ -1,0 +1,5 @@
+You: Hi! I need your help. I have to find an ingredient to save humanity, but I don't know what that is. 
+S: I can help you, but to find the ingredient you have to be guided by your knowledge.
+S: Try guessing which is the right potion.
+S: If you make the wrong choice, you will have to start over in the maze.
+S: Only you will find the right answer!

@@ -55,7 +55,7 @@ public class PuzzleManagerCM : MonoBehaviour
 
     // for testing only
     public void GoToLab() {
-        print("going to lab");
+        SceneManager.LoadScene("Laborator");
     }
 
     public void SaveAndQuit() {

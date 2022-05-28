@@ -1,0 +1,5 @@
+Tu: Bună! Am nevoie de ajutorul dumneavoastră. Trebuie sa găsesc un ingredient pentru a salva omenirea, dar nu știu care e acela.
+S: Pot să te ajut, însă pentru a găsi ingredientul trebuie sa te lași ghidat de cunoștințele tale. 
+S: Încearcă să ghicești care este poțiunea corectă.
+S: Dacă alegi greșit, va trebui să o iei de la capăt prin labirint.
+S: Numai tu vei găsi răspunsul corect! 
