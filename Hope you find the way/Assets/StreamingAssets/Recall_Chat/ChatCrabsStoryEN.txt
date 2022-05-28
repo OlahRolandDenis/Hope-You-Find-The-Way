@@ -1,0 +1,11 @@
+R: Hello, are you Dave's child?
+You: Yes, it's me! I'm looking for the ingredients to make the potion my father invented.
+R: For this, I'm going to have to send you to another world, are you ready?
+You: But what will I need to do?
+R: When you get there, you will have to collect letters from crabs and then sort the letters in ascending order.
+To collect the letters from the crabs you will have to left click on the crab first for it to disappear.
+Then, you will right click on the letter.
+The letter you click on will be added in your inventory which you can toggle by pressing TAB on your keyboard.
+When you got all the letters, a message will appear on the screen.
+You will then open the inventory and click the button there to continue to the puzzle.
+Nice hunting! :)
