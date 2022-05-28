@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Crabs/CrabsLevel.unity
     guid: 1d0781fbefabc6745b6d518bcb76d9d7
+  - enabled: 1
+    path: Assets/Scenes/Levels/Crabs/CrabsPuzzle.unity
+    guid: d4c5a55c61e653246aabd784dd28bd85
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 844cc8751ab04dc4982b1e7f32befaf0, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: ed324589d19af744582e530f899a6871, type: 2}
