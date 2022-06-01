@@ -17,4 +17,12 @@ public class SceneLoaderCB: MonoBehaviour
         SceneManager.LoadScene("CrabsPuzzle");
     }
 
+    public void GoToLab() { 
+        SceneManager.LoadScene("Laborator");
+    }
+
+    public void SaveAndQuit() { 
+        Application.Quit();
+    }
+
 }

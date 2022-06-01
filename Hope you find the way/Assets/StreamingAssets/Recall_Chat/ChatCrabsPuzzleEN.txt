@@ -1,0 +1,3 @@
+YOU HAVE COLLECTED ALL LETTERS! WOOHOO!
+Your next task is to order them so that you will get the name of the ingredient which can be gotten using the collected letters.
+READY?!
