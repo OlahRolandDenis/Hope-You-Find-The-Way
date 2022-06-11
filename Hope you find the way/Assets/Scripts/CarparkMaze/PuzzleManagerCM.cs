@@ -55,6 +55,7 @@ public class PuzzleManagerCM : MonoBehaviour
 
     // for testing only
     public void GoToLab() {
+        PlayerPrefs.DeleteKey( "level 1" );
         SceneManager.LoadScene("Laborator");
     }
 

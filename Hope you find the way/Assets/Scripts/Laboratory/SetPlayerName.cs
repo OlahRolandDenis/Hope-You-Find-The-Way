@@ -9,6 +9,7 @@ public class SetPlayerName : MonoBehaviour
     void Start()
     {
         gameObject.GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetString("name");
+
     }
 
 }

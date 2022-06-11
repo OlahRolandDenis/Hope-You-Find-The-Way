@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using DG.Tweening;
 
 public class LabManager : MonoBehaviour
 {
     
     [SerializeField] private GameObject potionEntry, portalEntry, player, portal, potionBoiler;
-    [SerializeField] private Canvas potionMakingCanvas, portalQuestionCanvas;
+    [SerializeField] private Canvas potionMakingCanvas, portalQuestionCanvas, noMoreLevels;
     private float portal_distance, boiler_distance;
 
     void Update() {
@@ -65,6 +66,18 @@ public class LabManager : MonoBehaviour
     private void OpenPortalQuestion() {
         portal.transform.DOScale( new Vector3( 10f, 4f, 0f ), 1f );
         portalQuestionCanvas.gameObject.SetActive( true );
+    }
+
+    public void NextLevel() {
+        for ( int i = 0; i < 3; i++ ) {
+            if ( PlayerPrefs.HasKey("level " + i ) ) {
+                SceneManager.LoadScene( "" + i );
+                return;
+            } else {
+                print( "no level " + i );
+                noMoreLevels.gameObject.SetActive( true );
+            }
+        }
     }
 
 }

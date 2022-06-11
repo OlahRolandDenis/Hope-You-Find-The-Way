@@ -45,7 +45,7 @@ public class DialogueManagerCB : MonoBehaviour
             if ( current_scene.name == "CrabsPuzzle" )
                 StartPuzzle();
 
-            if ( current_scene.name == "CrabsStory")
+            if ( current_scene.name == "0")
                 GoFurther();
 
             return;

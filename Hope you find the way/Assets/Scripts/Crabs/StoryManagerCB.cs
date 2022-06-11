@@ -17,7 +17,7 @@ public class StoryManagerCB : MonoBehaviour
     }
 
     public void SetStory() {
-        if ( SceneManager.GetActiveScene().name == "CrabsStory")
+        if ( SceneManager.GetActiveScene().name == "0")
             if ( Application.systemLanguage == SystemLanguage.Romanian )
                 readFromFilePath = Application.streamingAssetsPath + "/Recall_Chat/" + "ChatCrabsStoryRO" + ".txt";
             else
