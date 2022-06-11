@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoaderCM : MonoBehaviour
 {
     public void LoadLevel() {
-        SceneManager.LoadScene("Maze");
+        SceneManager.LoadScene("1");
     }
 
     public void LoadPuzzle() {

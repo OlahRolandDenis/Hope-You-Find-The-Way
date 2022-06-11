@@ -10,7 +10,7 @@ public class SceneLoaderCB: MonoBehaviour
     }
 
     public void LoadStory() {
-        SceneManager.LoadScene("CrabsStory");
+        SceneManager.LoadScene("0");
     }
 
     public void LoadPuzzle() {
@@ -18,6 +18,7 @@ public class SceneLoaderCB: MonoBehaviour
     }
 
     public void GoToLab() { 
+        PlayerPrefs.DeleteKey("level 0" );
         SceneManager.LoadScene("Laborator");
     }
 
