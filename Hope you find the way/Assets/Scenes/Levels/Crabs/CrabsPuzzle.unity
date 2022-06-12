@@ -830,9 +830,17 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 168024473}
+    - target: {fileID: 1006790928261571429, guid: b15f3c5dfc1fcf14f8d58b6eb7c2802d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 32767
+      objectReference: {fileID: 0}
     - target: {fileID: 1006790928261571448, guid: b15f3c5dfc1fcf14f8d58b6eb7c2802d, type: 3}
       propertyPath: m_Name
       value: Fade
+      objectReference: {fileID: 0}
+    - target: {fileID: 1006790928261571448, guid: b15f3c5dfc1fcf14f8d58b6eb7c2802d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b15f3c5dfc1fcf14f8d58b6eb7c2802d, type: 3}
@@ -869,11 +877,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5518666882815425085, guid: ead410e87d82c2b41bd5c027a4094e10, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5518666882815425085, guid: ead410e87d82c2b41bd5c027a4094e10, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5518666882815425085, guid: ead410e87d82c2b41bd5c027a4094e10, type: 3}
       propertyPath: m_LocalPosition.x
@@ -961,7 +969,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.7066667, y: 1.7066667}
+    oldSize: {x: 4.096, y: 4.096}
     newSize: {x: 4.096, y: 4.096}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1504,6 +1512,10 @@ PrefabInstance:
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 2034887279555892740, guid: d4abed1d9a2311d4e9542e866fe22411, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2034887279555892740, guid: d4abed1d9a2311d4e9542e866fe22411, type: 3}
       propertyPath: m_fontSizeBase
       value: 150
