@@ -18,7 +18,7 @@ public class LabManager : MonoBehaviour
         if ( portal_distance <= 2f )
             DisablePortal();
 
-        if ( portal_distance <= 0.7f )
+        if ( portal_distance <= 0.5f )
             OpenPortalQuestion();
 
         if ( boiler_distance <= 2f  )
@@ -41,7 +41,7 @@ public class LabManager : MonoBehaviour
     }
 
     IEnumerator WaitAndEnablePotion() {
-        yield return new WaitForSeconds( 1f );
+        yield return new WaitForSeconds( 30f );
         potionEntry.gameObject.SetActive( true );
     }
 
@@ -50,7 +50,7 @@ public class LabManager : MonoBehaviour
     }
 
     IEnumerator WaitAndEnablePortal() {
-        yield return new WaitForSeconds( 1f );
+        yield return new WaitForSeconds( 30f );
         portalEntry.gameObject.SetActive( true );
     }
 
@@ -65,7 +65,11 @@ public class LabManager : MonoBehaviour
 
     private void OpenPortalQuestion() {
         portal.transform.DOScale( new Vector3( 10f, 4f, 0f ), 1f );
-        portalQuestionCanvas.gameObject.SetActive( true );
+        // portalQuestionCanvas.gameObject.SetActive( true );
+    }
+
+    public void ScaleBackPortal() {
+        portal.transform.DOScale( new Vector3( 6f, 2f, 0f), 1f );
     }
 
     public void NextLevel() {
@@ -76,6 +80,7 @@ public class LabManager : MonoBehaviour
             } else {
                 print( "no level " + i );
                 noMoreLevels.gameObject.SetActive( true );
+                portalQuestionCanvas.gameObject.SetActive( false );
             }
         }
     }

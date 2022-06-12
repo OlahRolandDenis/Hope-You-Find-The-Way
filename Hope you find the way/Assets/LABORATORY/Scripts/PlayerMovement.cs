@@ -1,10 +1,12 @@
 ﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
 
+    [SerializeField] private Canvas portalQuestionCanvas;
 
     [SerializeField] private Rigidbody2D body;
     [SerializeField] private float moveSpeed;
@@ -28,5 +30,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Move() {
         body.velocity = new Vector2( moveDirection.x * moveSpeed, moveDirection.y * moveSpeed );
+    }
+
+    private void OnTriggerEnter2D( Collider2D collider ) {
+        if ( collider.gameObject.tag == "portal" ) {
+            portalQuestionCanvas.gameObject.SetActive( true );
+        }
     }
 }
