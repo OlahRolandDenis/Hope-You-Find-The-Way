@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoaderCB: MonoBehaviour
 {
+    private string INGREDIENT_NAME = "BAC";
+
     public void LoadLevel() {
         SceneManager.LoadScene("CrabsLevel");
     }
@@ -19,6 +21,7 @@ public class SceneLoaderCB: MonoBehaviour
 
     public void GoToLab() { 
         PlayerPrefs.DeleteKey("level 0" );
+        PlayerPrefs.SetString("current_ingredient", INGREDIENT_NAME);
         SceneManager.LoadScene("Laborator");
     }
 

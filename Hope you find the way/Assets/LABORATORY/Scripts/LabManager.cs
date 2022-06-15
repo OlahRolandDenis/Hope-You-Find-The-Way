@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 
@@ -9,6 +10,7 @@ public class LabManager : MonoBehaviour
     
     [SerializeField] private GameObject potionEntry, portalEntry, player, portal, potionBoiler;
     [SerializeField] private Canvas potionMakingCanvas, portalQuestionCanvas, noMoreLevels;
+    [SerializeField] private Button add_ingredient_button;
     private float portal_distance, boiler_distance;
 
     void Update() {
@@ -60,6 +62,11 @@ public class LabManager : MonoBehaviour
     }
 
     public void OpenPotionMaking() {
+        if ( PlayerPrefs.HasKey("current_ingredient") )
+            add_ingredient_button.interactable = true;
+        else
+            add_ingredient_button.interactable = false;
+            
         potionMakingCanvas.gameObject.SetActive( true );
     }
 
